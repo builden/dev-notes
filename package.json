@@ -1,10 +1,12 @@
 {
   "private": true,
-  "name": "dumi-app",
+  "name": "dev-notes",
   "scripts": {
     "start": "dumi dev",
     "build": "dumi build",
-    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "build:full:style": "postcss src/styles/tailwind.src.css -o src/styles/tailwind.css",
+    "build:style": "cross-env NODE_ENV=production postcss src/styles/tailwind.src.css -o src/styles/tailwind.min.css"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -21,9 +23,17 @@
     ]
   },
   "dependencies": {
-    "dumi": "^1.0.7",
+    "dumi": "^1.0.16",
     "lint-staged": "^10.0.7",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.4",
+    "tailwindcss": "^1.2.0",
     "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "cross-env": "^7.0.2",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "taro-tailwind": "^0.3.0"
   }
 }

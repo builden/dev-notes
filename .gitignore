@@ -17,3 +17,7 @@
 .umi
 .umi-production
 .env.local
+
+# tailwind
+/src/styles/tailwind.css
+/src/styles/tailwind.min.css
