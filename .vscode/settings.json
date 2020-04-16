@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["bezier", "dumi", "navs", "rgba"],
+  "cSpell.words": ["antd", "bezier", "dumi", "navs", "rgba", "zent"],
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,

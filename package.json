@@ -27,7 +27,8 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.0.4",
     "tailwindcss": "^1.2.0",
-    "yorkie": "^2.0.0"
+    "yorkie": "^2.0.0",
+    "zent": "^8.4.0"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.28",
