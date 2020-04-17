@@ -1,5 +1,10 @@
 import { defineConfig } from 'dumi';
 
+const alias = {};
+if (process.env.NODE_ENV === 'production') {
+  alias['./styles/tailwind.css'] = './styles/tailwind.min.css';
+}
+
 export default defineConfig({
   title: '开发笔记',
   mode: 'site',
@@ -28,5 +33,9 @@ export default defineConfig({
       },
     ],
   },
-  extraBabelPlugins: ['babel-plugin-emotion'],
+  alias,
+  extraBabelPlugins: [
+    'babel-plugin-emotion',
+    ['import', { libraryName: 'zarm', style: true }],
+  ],
 });
