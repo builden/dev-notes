@@ -36,6 +36,15 @@ export default defineConfig({
   alias,
   extraBabelPlugins: [
     'babel-plugin-emotion',
-    ['import', { libraryName: 'zarm', style: true }],
+    ['import', { libraryName: 'zarm', style: true }, 'zarm'],
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true, // `style: true` 会加载 less 文件, `style: 'css'`会加载css文件
+      },
+      'antd',
+    ],
   ],
 });

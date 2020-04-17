@@ -1,5 +1,14 @@
 {
-  "cSpell.words": ["antd", "bezier", "dumi", "navs", "rgba", "zarm", "zent"],
+  "cSpell.words": [
+    "antd",
+    "bezier",
+    "dumi",
+    "navs",
+    "rgba",
+    "umijs",
+    "zarm",
+    "zent"
+  ],
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
