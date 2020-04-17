@@ -31,3 +31,8 @@ nav:
 1. 同时安装多个库(如同时安装 zent, antd)默认会冲突，尝试安装`@umijs/plugin-sass`解决
 2. 目前 zent 无法使用 babel-plugin-zent 插件，会导致无法编译
 3. babel-plugin-import 没有起效果，导致压缩包变得很大
+
+## 储备 UI 库
+
+- [弹幕](https://github.com/bytedance/danmu.js)
+- [react-virtualized](https://github.com/bvaughn/react-virtualized)
