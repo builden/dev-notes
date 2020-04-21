@@ -34,5 +34,6 @@ nav:
 
 ## 储备 UI 库
 
-- [弹幕](https://github.com/bytedance/danmu.js)
+- [字节跳动-弹幕](https://github.com/bytedance/danmu.js)
+- [阿里-弹幕](https://github.com/zerosoul/rc-bullets)
 - [react-virtualized](https://github.com/bvaughn/react-virtualized)
