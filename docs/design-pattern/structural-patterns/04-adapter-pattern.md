@@ -16,10 +16,51 @@
 ### 类适配器
 
 - 使用继承关系来实现
+- 如果 Adaptee 和 ITarget 的接口定义大部分相同，推荐用这种方式，Adaptor 的代码量要少一些
+
+```ts
+interface ITarget {
+  f1();
+  f2();
+  fc();
+}
+class Adaptee {
+  fa() {}
+  fb() {}
+  fc() {}
+}
+class Adaptor extends Adaptee implements ITarget {
+  f1() {
+    super.fa();
+  }
+  f2() {
+    super.fb();
+  }
+}
+```
 
 ### 对象适配器
 
 - 使用组合关系来实现
+- 如果 Adaptee 和 ITarget 的接口定义大部分都不相同，组合结构相对于继承更加灵活
+
+```ts
+class Adaptor implements ITarget {
+  adaptee = null;
+  constructor(adaptee: Adaptee) {
+    this.adaptee = adaptee;
+  }
+  f1() {
+    adaptee.fa(); // 委托给了Adaptee
+  }
+  f2() {
+    adaptee.fb();
+  }
+  fc() {
+    adaptee.fc();
+  }
+}
+```
 
 ## 代理、桥接、装饰器、适配器 4 种模式的区别
 
