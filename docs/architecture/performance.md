@@ -14,3 +14,8 @@
 
 1. 去掉冗余的流程
 2. 尽量不做重复性的工作
+
+## 参考
+
+- [送你一张图，搞懂性能优化，再也不怕面试官拷问](https://juejin.im/post/5e7723636fb9a07cc321675d)
+- [深入浅出](https://github.com/ljianshu/Blog)

@@ -135,3 +135,11 @@ module.exports = ({ env }) => {
 
 - 安装`yarn add boundsize -D`库
 - 在 package.json 中配置目标文件的尺寸限制
+
+## HMR (热更新 Hot Module Replace)实现原理
+
+- 修改了一个或多个文件。
+- 文件系统接收更改并通知 Webpack。
+- Webpack 重新编译构建一个或多个模块，并通知 HMR 服务器进行了更新。
+- HMR Server 使用 websocket 通知 HMR Runtime 需要更新。（HMR 运行时通过 HTTP 请求这些更新。）
+- HMR 运行时再替换更新中的模块。如果确定这些模块无法更新，则触发整个页面刷新
