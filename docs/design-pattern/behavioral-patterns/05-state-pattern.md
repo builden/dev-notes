@@ -191,3 +191,13 @@ class MarioStateMachine {
   }
 }
 ```
+
+## [xstate](https://github.com/davidkpiano/xstate)
+
+### 有限状态机(Finite State Machine)
+
+### 分层状态机(Hierarchical/Nested State Machine)
+
+### 并行状态机(Parallel State Machine)
+
+### 历史状态(History State)
