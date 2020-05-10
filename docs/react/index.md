@@ -23,3 +23,13 @@ React 是用于构建数据会随着时间改变的大型应用
 
 1. DOM 中的节点被称为元素
 2. Virtual DOM 中的节点被称为 Component
+
+## 生命周期
+
+### 老版生命周期
+
+![老版生命周期](./assets/react-old-life.jpg)
+
+### 新版生命周期
+
+![新版生命周期](./assets/react-new-life.jpg)

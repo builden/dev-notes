@@ -1100,6 +1100,14 @@
     postcss "7.0.27"
     purgecss "^2.1.2"
 
+"@fullhuman/postcss-purgecss@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/@fullhuman/postcss-purgecss/download/@fullhuman/postcss-purgecss-2.2.0.tgz#2b3699287163ff515f25ccdae5b96a244eebb41a"
+  integrity sha1-KzaZKHFj/1FfJcza5blqJE7rtBo=
+  dependencies:
+    postcss "7.0.28"
+    purgecss "^2.2.0"
+
 "@hapi/address@^2.1.2":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz?cache=0&sync_timestamp=1584145510980&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40hapi%2Faddress%2Fdownload%2F%40hapi%2Faddress-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2075,10 +2083,10 @@
     umi-webpack-bundle-analyzer "3.5.0"
     zlib "1.0.5"
 
-"@umijs/preset-dumi@1.0.20":
-  version "1.0.20"
-  resolved "https://registry.npm.taobao.org/@umijs/preset-dumi/download/@umijs/preset-dumi-1.0.20.tgz#384648809d93557cd88f5f5a77605a586a786e8b"
-  integrity sha1-OEZIgJ2TVXzYj19ad2BaWGp4bos=
+"@umijs/preset-dumi@1.0.22":
+  version "1.0.22"
+  resolved "https://registry.npm.taobao.org/@umijs/preset-dumi/download/@umijs/preset-dumi-1.0.22.tgz#e8edd9834f0232ee7c886e36273048139937fd68"
+  integrity sha1-6O3Zg08CMu58iG42JzBIE5k3/Wg=
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -4606,12 +4614,12 @@ dotenv@8.2.0:
   resolved "https://registry.npm.taobao.org/dotenv/download/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha1-l+YZJZradQ7qPk6j4mvO6lQksWo=
 
-dumi@^1.0.16:
-  version "1.0.20"
-  resolved "https://registry.npm.taobao.org/dumi/download/dumi-1.0.20.tgz#dc9c803e552de3b2fd2288e4ebdf3259ef107650"
-  integrity sha1-3JyAPlUt47L9Iojk698yWe8QdlA=
+dumi@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.npm.taobao.org/dumi/download/dumi-1.0.22.tgz#2c3627552b55e5fc68d3e9f01caad7139fc6dd52"
+  integrity sha1-LDYnVStV5fxo0+nwHKrXE5/G3VI=
   dependencies:
-    "@umijs/preset-dumi" "1.0.20"
+    "@umijs/preset-dumi" "1.0.22"
     umi "^3.0.0"
 
 duplexer3@^0.1.4:
@@ -5674,10 +5682,10 @@ format@^0.2.0:
   resolved "https://registry.npm.taobao.org/format/download/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-formulr@~0.2.11:
-  version "0.2.14"
-  resolved "https://registry.npm.taobao.org/formulr/download/formulr-0.2.14.tgz#d50a934574b52a6704f9ab367b08ff2ef4357991"
-  integrity sha1-1QqTRXS1KmcE+as2ewj/LvQ1eZE=
+formulr@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npm.taobao.org/formulr/download/formulr-0.3.1.tgz#cf09bcc20114b3828a192e808ea77edea3250dec"
+  integrity sha1-zwm8wgEUs4KKGS6Ajqd+3qMlDew=
   dependencies:
     big.js "^5.2.2"
     rxjs "^6.4.0"
@@ -9536,6 +9544,15 @@ postcss@7.0.27, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.13
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+postcss@7.0.28:
+  version "7.0.28"
+  resolved "https://registry.npm.taobao.org/postcss/download/postcss-7.0.28.tgz#d349ced7743475717ba91f6810efb58c51fb5dbb"
+  integrity sha1-00nO13Q0dXF7qR9oEO+1jFH7Xbs=
+  dependencies:
+    chalk "^2.4.2"
+    source-map "^0.6.1"
+    supports-color "^6.1.0"
+
 postcss@^6.0.9:
   version "6.0.23"
   resolved "https://registry.npm.taobao.org/postcss/download/postcss-6.0.23.tgz?cache=0&sync_timestamp=1581994853208&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss%2Fdownload%2Fpostcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
@@ -9735,6 +9752,16 @@ purgecss@^2.1.2:
     commander "^5.0.0"
     glob "^7.0.0"
     postcss "7.0.27"
+    postcss-selector-parser "^6.0.2"
+
+purgecss@^2.2.0:
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/purgecss/download/purgecss-2.2.1.tgz#aa3bdf23370f7539df6154f5e25df2da311cd018"
+  integrity sha1-qjvfIzcPdTnfYVT14l3y2jEc0Bg=
+  dependencies:
+    commander "^5.0.0"
+    glob "^7.0.0"
+    postcss "7.0.28"
     postcss-selector-parser "^6.0.2"
 
 q@^1.1.2:
@@ -11944,10 +11971,10 @@ table@^5.0.0, table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss@^1.4.4:
-  version "1.4.4"
-  resolved "https://registry.npm.taobao.org/tailwindcss/download/tailwindcss-1.4.4.tgz#a866f281f99ee7058fa3301ef0ce34b16141deb6"
-  integrity sha1-qGbygfme5wWPozAe8M40sWFB3rY=
+tailwindcss@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.npm.taobao.org/tailwindcss/download/tailwindcss-1.4.6.tgz#17b37166ccda08d7e7f9ca995ea48ce1e0089700"
+  integrity sha1-F7NxZszaCNfn+cqZXqSM4eAIlwA=
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
@@ -13027,10 +13054,10 @@ zarm@^2.1.0:
     popper.js "^1.15.0"
     react-native-camera-roll-picker "1.2.3"
 
-zent@^8.4.0:
-  version "8.4.0"
-  resolved "https://registry.npm.taobao.org/zent/download/zent-8.4.0.tgz#8620e28a16b085998014b1f31ce22572607607e7"
-  integrity sha1-hiDiihawhZmAFLHzHOIlcmB2B+c=
+zent@^8.5.0:
+  version "8.5.0"
+  resolved "https://registry.npm.taobao.org/zent/download/zent-8.5.0.tgz#8615ba3141b8cc290944be37760656264d05db27"
+  integrity sha1-hhW6MUG4zCkJRL43dgZWJk0F2yc=
   dependencies:
     "@types/autosize" "^3.0.6"
     "@types/sortablejs" "~1.7.2"
@@ -13038,19 +13065,19 @@ zent@^8.4.0:
     big.js "^5.2.2"
     classnames "^2.2.6"
     date-fns "^2.7.0"
-    formulr "~0.2.11"
+    formulr "^0.3.1"
     react-is "^16.8.1"
     react-transition-group "^2.6.0"
     sortablejs "~1.9.0"
     tslib "^1.9.3"
     utility-types "^3.4.1"
     warning "^4.0.3"
-    zenticons "3.3.0"
+    zenticons "3.4.0"
 
-zenticons@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.npm.taobao.org/zenticons/download/zenticons-3.3.0.tgz#a6810cee8a616e61611818be1b9b4cdee93e41a5"
-  integrity sha1-poEM7ophbmFhGBi+G5tM3uk+QaU=
+zenticons@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.npm.taobao.org/zenticons/download/zenticons-3.4.0.tgz#6d80c127d1d2e88d0c19a318517ba98f14402c8c"
+  integrity sha1-bYDBJ9HS6I0MGaMYUXupjxRALIw=
 
 zlib@1.0.5:
   version "1.0.5"

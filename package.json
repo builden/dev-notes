@@ -25,17 +25,17 @@
   },
   "dependencies": {
     "antd": "^4.2.0",
-    "dumi": "^1.0.16",
+    "dumi": "^1.0.22",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.4",
-    "tailwindcss": "^1.4.4",
+    "tailwindcss": "^1.4.6",
     "yorkie": "^2.0.0",
     "zarm": "^2.1.0",
-    "zent": "^8.4.0"
+    "zent": "^8.5.0"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.28",
-    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
     "@umijs/plugin-sass": "^1.1.1",
     "babel-plugin-emotion": "^10.0.33",
     "classnames": "^2.2.6",

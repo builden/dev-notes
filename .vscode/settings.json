@@ -13,6 +13,7 @@
     "antd",
     "bezier",
     "brotli",
+    "craco",
     "curr",
     "dumi",
     "navs",
