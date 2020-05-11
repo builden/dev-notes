@@ -5,8 +5,8 @@
 - Modal: 模型，数据层，用来存储数据
 - View: 视图，展示层，用来展示 UI 界面和响应用户交互
 - Controller: 控制。监听模型数据的改变和控制视图行为、处理用户交互
-- Presenter:
-- ViewModal:
+- Presenter: 展示器
+- ViewModal: 视图模型
 
 ## MVC
 

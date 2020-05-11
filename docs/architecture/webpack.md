@@ -3,6 +3,14 @@
 - webpack 是一个`模块打包工具`
 - 最核心的功能是：`解决模块之间的依赖`，把各个模块按照特定的规则和顺序组织在一起，最终合并成一个或多个 js 文件
 
+## Web 应用性能优化指标参考值
+
+1. 页面初载时，所有未压缩的 Javascript 脚本大小：`<=200KB`
+2. 页面初载时，所有未压缩的 CSS 资源大小：`<=100KB`
+3. HTTP 协议下，请求资源数：`<=6个`
+4. HTTP/2 协议下，请求资源数：`<=20个`
+5. 90%的代码利用率，可以在 Chrome Dev Tools 中查看
+
 ## CommonJS 与 ES6 Module 的区别
 
 ### 本质区别
@@ -143,3 +151,22 @@ module.exports = ({ env }) => {
 - Webpack 重新编译构建一个或多个模块，并通知 HMR 服务器进行了更新。
 - HMR Server 使用 websocket 通知 HMR Runtime 需要更新。（HMR 运行时通过 HTTP 请求这些更新。）
 - HMR 运行时再替换更新中的模块。如果确定这些模块无法更新，则触发整个页面刷新
+
+## Webpack 代码分割的类型
+
+### 静态代码分割
+
+```ts
+// 魔术注释
+// webpackMode: lazy; 默认是lazy, 表示异步模块会被单独抽离成单一的chunk，如设置成lazy-once
+// webpackPrefetch: true; 浏览器会在idle状态时预先加载我们所需的资源，同<link rel="prefetch">特性一致
+import(/* webpackChunkName: "my-chunk-name" */ './lazy-modal.js').then((mod) =>
+  console.log(mod),
+);
+```
+
+### 动态代码分割
+
+```ts
+const getTheme = (themeName) => import(`./src/theme/${themeName}`);
+```
