@@ -38,11 +38,21 @@
 
 ### CPA(Cost Per Action, 成果数计费)
 
+- 比方说按安装、注册数
+
 ### CVR(Click Value Rate, 转化率)
 
 - 衡量 CPA 广告效果的指标
 
 ### CTR(Click Through Rate, 点击率)
+
+- 点击的次数和转化的次数的比值
+
+### ROI(Return On Investment)
+
+- 原意是投资回报率
+- 投入产出比：销售额/消费
+- 比如花了 100 元广告费，产生了 200 的交易额，投入产出比就是 1:2
 
 ### PV(Page View)
 
