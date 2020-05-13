@@ -14,11 +14,11 @@
 
 ### 根据意愿-能力矩阵
 
-![意愿-能力矩阵](/assets/wish-skill-matrix.jpg)
+![意愿-能力矩阵](./assets/wish-skill-matrix.jpg)
 
 ### 根据 PDP 性格测试
 
-[PDP](./assets/pdp.jpg)
+![PDP](./assets/pdp.jpg)
 
 1. 老虎(支配型): 结果导向，要赢，一语中的，喜欢风险、挑战和创新
 2. 孔雀(外向型): 社交能力强，积极乐观，通过影响他人来使事情发生

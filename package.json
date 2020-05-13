@@ -3,11 +3,12 @@
   "name": "dev-notes",
   "scripts": {
     "start": "dumi dev",
-    "build": "dumi build",
+    "docs:build": "dumi build",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "build:full:style": "postcss src/styles/tailwind.src.css -o src/styles/tailwind.css",
     "build:style": "cross-env NODE_ENV=production postcss src/styles/tailwind.src.css -o src/styles/tailwind.min.css",
-    "prebuild": "yarn build:style"
+    "predocs:build": "yarn build:style",
+    "deploy": "gh-pages -d dist"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -40,8 +41,10 @@
     "babel-plugin-emotion": "^10.0.33",
     "classnames": "^2.2.6",
     "cross-env": "^7.0.2",
+    "gh-pages": "^2.2.0",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "taro-tailwind": "^0.3.0"
-  }
+  },
+  "homepage": "."
 }
