@@ -2,9 +2,11 @@ import { defineConfig } from 'dumi';
 
 const alias = {};
 let base;
+let publicPath;
 if (process.env.NODE_ENV === 'production') {
   base = '/dev-notes/';
   alias['./styles/tailwind.css'] = './styles/tailwind.min.css';
+  publicPath = 'https://builden.github.io/dev-notes/';
 }
 
 export default defineConfig({
@@ -50,5 +52,5 @@ export default defineConfig({
     ],
   ],
   base,
-  publicPath: 'https://builden.github.io/dev-notes/',
+  publicPath,
 });

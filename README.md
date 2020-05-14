@@ -17,5 +17,5 @@ $ npm start
 Build site app,
 
 ```bash
-$ npm run build
+$ npm run docs:build
 ```
