@@ -6,7 +6,7 @@ let publicPath;
 if (process.env.NODE_ENV === 'production') {
   base = '/dev-notes/';
   alias['./styles/tailwind.css'] = './styles/tailwind.min.css';
-  publicPath = 'https://builden.github.io/dev-notes/';
+  publicPath = '/dev-notes/';
 }
 
 export default defineConfig({
