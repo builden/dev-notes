@@ -37,7 +37,6 @@ export default defineConfig({
       },
     ],
   },
-  alias,
   extraBabelPlugins: [
     'babel-plugin-emotion',
     ['import', { libraryName: 'zarm', style: true }, 'zarm'],
@@ -51,6 +50,8 @@ export default defineConfig({
       'antd',
     ],
   ],
+  exportStatic: {},
+  alias,
   base,
   publicPath,
 });
