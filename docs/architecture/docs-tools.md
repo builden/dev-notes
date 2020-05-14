@@ -42,5 +42,53 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'dumi',
   mode: 'site', // site | doc
+
+  // 发布到Github Pages，默认路径是
+  base: '<RepoName>', // such as: /dev-notes/
+  publicPath: '<RepoName>', // such as: /dev-notes/
+  exportStatic: {}, // 生成所有子页面，确保页面刷新时能正常访问
 });
 ```
+
+#### Github Pages 配置
+
+```bash
+$ yarn add gh-pages -D
+```
+
+```yml
+# .github/workflows/gh-pages.yml
+# 提交到Github后，会自动执行生成最新的Pages页面
+name: github pages
+
+on:
+  push:
+    branches:
+      - master # default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run docs:build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+```
+
+```json
+// package.json
+{
+  "script": {
+    "deploy": "gh-pages -d dist"
+  }
+}
+```
+
+#### 页面加载加速，迁移到 [码云 Gitee](https://gitee.com/)
+
+- 授权从 github 同步代码，同步成功后可以创建`Gitee Pages`
