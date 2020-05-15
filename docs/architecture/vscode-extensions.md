@@ -12,10 +12,12 @@
 
 ## 推荐
 
+- Draw.io Integration: 流程图
+- vscode-mindmap: 思维导图
+- Regexp Explain
 - GitHub Pull Request and Issues
 - Bracket Pair Colorizer 2
 - Visual Studio IntelliCode
-- Draw.io Integration
 - GitLens -- Git supercharged
 - hexdump for VSCode
 - LeetCode
