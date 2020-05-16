@@ -14,10 +14,11 @@
 
 - Draw.io Integration: 流程图
 - vscode-mindmap: 思维导图
-- Regexp Explain
+- Regexp Explain: 图形化解析正则表达式
+- Bracket Pair Colorizer 2: 括号颜色匹配
 - GitHub Pull Request and Issues
-- Bracket Pair Colorizer 2
 - Visual Studio IntelliCode
+- Visual Studio Codespaces: 微软的 Codespaces 空间
 - GitLens -- Git supercharged
 - hexdump for VSCode
 - LeetCode
