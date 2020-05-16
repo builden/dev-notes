@@ -30,10 +30,10 @@
     insert-css "^2.0.0"
     rc-util "^4.9.0"
 
-"@ant-design/react-slick@~0.25.5":
-  version "0.25.5"
-  resolved "https://registry.npm.taobao.org/@ant-design/react-slick/download/@ant-design/react-slick-0.25.5.tgz#18f40abaa22c15dc26da9c473d24da38d4d8f334"
-  integrity sha1-GPQKuqIsFdwm2pxHPSTaONTY8zQ=
+"@ant-design/react-slick@~0.26.1":
+  version "0.26.1"
+  resolved "https://registry.npm.taobao.org/@ant-design/react-slick/download/@ant-design/react-slick-0.26.1.tgz#1462ad1342a83af51b7ea4ee0ae1d76d91d1b3d3"
+  integrity sha1-FGKtE0KoOvUbfqTuCuHXbZHRs9M=
   dependencies:
     classnames "^2.2.5"
     json2mq "^0.2.0"
@@ -2549,14 +2549,14 @@ ansicolors@~0.3.2:
   resolved "https://registry.npm.taobao.org/ansicolors/download/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-4.2.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.2.2.tgz#223ea6b3b3b5ce1a47d390f271c1b145ea9c5c15"
-  integrity sha1-Ij6ms7O1zhpH05DyccGxReqcXBU=
+antd@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-4.2.3.tgz#ee9b218cb04acb990a113a78ded934318a782a94"
+  integrity sha1-7pshjLBKy5kKETp43tk0MYp4KpQ=
   dependencies:
     "@ant-design/css-animation" "^1.7.2"
     "@ant-design/icons" "^4.1.0"
-    "@ant-design/react-slick" "~0.25.5"
+    "@ant-design/react-slick" "~0.26.1"
     array-tree-filter "^2.1.0"
     classnames "~2.2.6"
     copy-to-clipboard "^3.2.0"
@@ -2578,8 +2578,8 @@ antd@^4.2.2:
     rc-menu "~8.1.0"
     rc-notification "~4.3.0"
     rc-pagination "~2.2.0"
-    rc-picker "~1.4.0"
-    rc-progress "~2.5.0"
+    rc-picker "~1.4.16"
+    rc-progress "~3.0.0"
     rc-rate "~2.6.0"
     rc-resize-observer "^0.2.0"
     rc-select "~10.3.0"
@@ -10093,10 +10093,10 @@ rc-pagination@~2.2.0:
   dependencies:
     classnames "^2.2.1"
 
-rc-picker@~1.4.0:
-  version "1.4.9"
-  resolved "https://registry.npm.taobao.org/rc-picker/download/rc-picker-1.4.9.tgz#bef936bf04e7015eba5e13db77d446f26c9ca394"
-  integrity sha1-vvk2vwTnAV66XhPbd9RG8myco5Q=
+rc-picker@~1.4.16:
+  version "1.4.16"
+  resolved "https://registry.npm.taobao.org/rc-picker/download/rc-picker-1.4.16.tgz?cache=0&sync_timestamp=1589536526448&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-picker%2Fdownload%2Frc-picker-1.4.16.tgz#50b6bde3d237cc327917353d21e3bb9ce004ee5c"
+  integrity sha1-ULa949I3zDJ5FzU9IeO7nOAE7lw=
   dependencies:
     classnames "^2.2.1"
     moment "^2.24.0"
@@ -10104,13 +10104,12 @@ rc-picker@~1.4.0:
     rc-util "^4.17.0"
     shallowequal "^1.1.0"
 
-rc-progress@~2.5.0:
-  version "2.5.2"
-  resolved "https://registry.npm.taobao.org/rc-progress/download/rc-progress-2.5.2.tgz#ab01ba4e5d2fa36fc9f6f058b10b720e7315560c"
-  integrity sha1-qwG6Tl0vo2/J9vBYsQtyDnMVVgw=
+rc-progress@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/rc-progress/download/rc-progress-3.0.0.tgz#cea324ce8fc31421cd815d94a4649a8a29f8f8db"
+  integrity sha1-zqMkzo/DFCHNgV2UpGSaiin4+Ns=
   dependencies:
-    babel-runtime "6.x"
-    prop-types "^15.5.8"
+    classnames "^2.2.6"
 
 rc-rate@~2.6.0:
   version "2.6.0"
