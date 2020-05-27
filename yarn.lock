@@ -13191,10 +13191,10 @@ yorkie@^2.0.0:
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
 
-zarm@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npm.taobao.org/zarm/download/zarm-2.3.0.tgz#b184231f80337b6194d2ac5e030a9a4f6e86ab1c"
-  integrity sha1-sYQjH4Aze2GU0qxeAwqaT26Gqxw=
+zarm@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npm.taobao.org/zarm/download/zarm-2.3.1.tgz#7c4d0ed382c2b5e8ef94ae7af04a3ffe96958505"
+  integrity sha1-fE0O04LCtejvlK568Eo//paVhQU=
   dependencies:
     better-scroll "1.15.1"
     classnames "2.2.6"
