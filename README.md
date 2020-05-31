@@ -5,13 +5,15 @@
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn
 ```
 
 Start the dev server,
 
 ```bash
-$ npm start
+# 生成全量tailwindcss
+$ yarn build:full:style
+$ yarn start
 ```
 
 Build site app,
