@@ -27,3 +27,4 @@
 - Quokka.js
 - Tailwind CSS IntelliSense
 - vscode-icons
+- SVG
